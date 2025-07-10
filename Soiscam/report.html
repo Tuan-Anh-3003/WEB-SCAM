@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOI SCAM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" 
+    rel="stylesheet" 
+  />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/lelinh014756/fui-toast-js@master/assets/css/toast@1.0.1/fuiToast.min.css">
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/report.css" />
+
+</head>
+<body>
+    <div id="fui-toast"></div>
+
+  <!-- IMAGES FIXED -->
+   <div class="effect-circle-1"></div>
+   <div class="effect-circle-2"></div>
+   <!-- end IMAGES FIXED -->
+
+  
+      <!-- HEADER -->
+  <header class="header">
+    <a href="index.html" class="header__logo">
+      <img src="./assets/images/logo.png" alt="logo" class="header__logo-img" />
+      <span class="header__logo-img">Soi scam</span>
+    </a>
+    <span class="header__open-menu">
+      <img src="./assets/images/open-menu-icon.svg" alt="">
+    </span>
+    <ul class="header__nav-list ">
+      <span class="header__close-menu">
+      <img src="./assets/images/close-menu-icon.svg" alt="">
+    </span>
+   
+      <li class="header__nav-item">
+        <a href="index.html" class="header_nav-link ">Trang chủ</a>
+      </li>
+      <li class="header__nav-item">
+                <a href="scammers.html" class="header_nav-link ">Scamer</a>
+      </li>
+      <li class="header__nav-item">
+                <a href="#" class="header_nav-link ">Giới thiệu</a>
+      </li>
+      <a href="./report.html" class=" btn header__btn">Gửi tố cáo</a>
+
+    </ul>
+  </header>
+  <!-- end HEADER-->
+ <!-- BREADCRUMB -->
+<section class="breadcrumb">
+  <a href="index.html" class="breadcrumb__link">Trang chủ</a>
+  <img 
+    src="./assets/images/arrow-right2.svg" 
+    alt="" 
+    class="breadcrumb__icon" 
+  />
+  <a href="./report.html" class="breadcrumb__link active">Gửi tố cáo</a>
+</section>
+<!-- end BREADCRUMB -->
+
+<!-- FORM REPORT -->
+<form id="form-report" class="form-report">
+  <h2 class="form__heading title">Thông tin kẻ lừa đảo</h2>
+  <div class="form__group-wrap">
+    <div class="form__group">
+      <label for="nameScammer" class="form__title">
+        Tên chủ tài khoản <span>*</span>
+      </label>
+      <input 
+        type="text" 
+        placeholder="Nhập tên chủ tài khoản..." 
+        name="nameScammer" 
+        id="nameScammer" 
+        class="form__input" 
+      />
+      <p class="form-message"></p>
+    </div>
+     <div class="form__group">
+      <label for="phoneScammer" class="form__title">
+        số điện thoại <span>*</span>
+      </label>
+      <input 
+        type="text" 
+        placeholder="Nhập số điện thoại..." 
+        name="phoneScammer" 
+        id="phoneScammer" 
+        class="form__input" 
+      />
+      <p class="form-message"></p>
+
+    </div>
+     <div class="form__group">
+      <label for="bankNumber" class="form__title">
+        Số tài khoản <span>*</span>
+      </label>
+      <input 
+        type="text" 
+        placeholder="Nhập số tài khoản..." 
+        name="bankNumber" 
+        id="bankNumber" 
+        class="form__input" 
+      />
+            <p class="form-message"></p>
+
+    </div>
+     <div class="form__group">
+      <label for="bankName" class="form__title">
+        Ngân hàng <span>*</span>
+      </label>
+      <input 
+        type="text" 
+        placeholder="Nhập tên Ngân hàng  ..." 
+        name="bankName" 
+        id="bankName" 
+        class="form__input" 
+      />
+            <p class="form-message"></p>
+
+    </div>
+  </div>
+       <div class="form__group form__group-textarea">
+        <textarea
+        placeholder="Nhập nội dung tố cáo..."
+        name="contentReport"
+        id="contentReport"
+        class="form__textarea"
+        ></textarea>
+              <p class="form-message"></p>
+
+       </div>
+       <div class="form__upload-wrap">
+         <!-- <div class="form__image-preview">
+              <div class="form__preview-remove">
+                <img src="./assets/images/close-icon.svg" alt=""/>
+              </div>
+
+            <img
+            src="https://images.unsplash.com/photo-1594979194853-f7dcd77a0a1b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2NhbXxlbnwwfHwwfHx8MA%3D%3D"
+            alt=""
+            class="form__preview-img"
+            />
+  </div>  -->
+        
+<div class="form__group form__upload-group">
+  <label for="uploadImage" class="form__upload">
+    <input 
+      type="file" 
+      name="images" 
+      id="uploadImage" 
+      class="form__upload-input" 
+      accept="image/*" 
+      multiple 
+      hidden 
+    />
+    <img 
+      src="./assets/images/Image.svg" 
+      alt="" 
+      class="form__upload-icon" 
+    />
+    <span class="form__upload-text">Chọn ảnh</span>
+  </label>
+        <p class="form-message"></p>
+
+</div>
+       </div>
+<h2 class="form__heading title">Xác thực người tố cáo</h2>
+
+<div class="form__group-wrap">
+  <div class="form__group">
+    <label for="nameSender" class="form__title">
+      Họ và tên <span>*</span>
+    </label>
+    <input
+      type="text"
+      placeholder="Nhập Họ và tên ..."
+      name="nameSender"
+      id="nameSender"
+      class="form__input"
+    />
+                  <p class="form-message"></p>
+  </div>
+
+  <div class="form__group">
+    <label for="phoneSender" class="form__title">
+       Liên hệ (Zalo - Sđt) <span>*</span>
+    </label>
+    <input
+      type="text"
+      placeholder="Nhập số điện thoại..."
+      name="phoneSender"
+      id="phoneSender"
+      class="form__input"
+    />
+                  <p class="form-message"></p>
+  </div>
+</div>
+<div class="form__action-group">
+  <div class="form__action-item">
+    <input
+      type="radio"
+      name="option"
+      id="option-1"
+      value="Tôi là nạn nhân"
+      class="form__radio-input"
+      checked
+    />
+    <label for="option-1" class="form__title-radio">Tôi là nạn nhân</label>
+  </div>
+
+  <div class="form__action-item">
+    <input
+      type="radio"
+      name="option"
+      id="option-2"
+      value="Tôi chỉ ủng hộ"
+      class="form__radio-input"
+    />
+    <label for="option-2" class="form__title-radio">Tôi chỉ đăng hộ</label>
+  </div>
+</div>
+<button type="submit" class="btn form-report__btn">Gửi tố cáo</button>
+
+</form>
+<!-- end FORM REPORT -->
+
+
+
+
+
+
+<!-- MODAL DETAIL SUMMER 
+<section class="modal">
+  <div class="modal__overlay"></div>
+  <div class="modal__content">
+    <div class="modal__header">
+      <div class="modal__header-title">Chi tiết tổ cáo</div>
+      <div class="modal__header-close">
+        <img src="./assets/images/close-icon.svg" alt="close icon" />
+      </div>
+    </div>
+    <div class="modal__body">
+      <div class="modal__group">
+        <div class="modal__profile">
+          <div class="modal__profile-avatar">
+            <img src="./assets/images/avatar-1.png" alt="avatar" />
+          </div>
+        </div>
+        <div class="modal__info">
+          <h4 class="modal__info-name">Nguyễn Văn A</h4>
+          <p class="modal__info-desc">#50 - Tố vào ngày 12/02/2024</p>
+        </div>
+      </div>
+      <div class="modal__detail">
+        <span class="modal__detail-title">Số điện thoại</span>
+        <span class="modal__detail-text">033399859</span>
+      </div>
+      <div class="modal__detail">
+        <span class="modal__detail-title">Số tài khoản</span>
+        <span class="modal__detail-text">3424686886</span>
+      </div>
+      <div class="modal__detail">
+        <span class="modal__detail-title">Ngân hàng</span>
+        <span class="modal__detail-text">ACB</span>
+      </div>
+      <div class="modal__group"></div>
+      <div class="modal__profile">
+          <div class="modal__profile-avatar">
+            <img src="./assets/images/avatar-2.png" alt="avatar" />
+          </div>
+       <div class="modal__info">
+          <h4 class="modal__info-name">Nguyễn Văn B</h4>
+          <p class="modal__info-desc">Người tố cáo</p>
+        </div>
+      </div>
+       <div class="modal__detail">
+        <span class="modal__detail-title">Trạng thái </span>
+        <span class="modal__detail-text">Nạn nhân</span>
+      </div>
+      <div class="modal__detail">
+        <span class="modal__detail-title">Liên hệ </span>
+        <span class="modal__detail-text">0345632823</span>
+      </div>
+      <div class="modal_textarea">
+        <span class="modal__detail-title">Nội dung tố cáo</span>
+        <p class="modal__textarea-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+        </p>
+      </div>
+      <div class="modal__images">Hình ảnh liên quan</span>
+          <div class="modal__preview-image">
+            <img
+            src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW9uZXl8ZW58MHx8MHx8fDA%3D"
+            alt="image scammer"
+            />
+            <img
+            src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW9uZXl8ZW58MHx8MHx8fDA%3D"
+            alt="image scammer"
+            />
+            <img
+            src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW9uZXl8ZW58MHx8MHx8fDA%3D"
+            alt="image scammer"
+            />
+            <img
+            src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW9uZXl8ZW58MHx8MHx8fDA%3D"
+            alt="image scammer"
+            />
+            <img
+            src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW9uZXl8ZW58MHx8MHx8fDA%3D"
+            alt="image scammer"
+            />
+          </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+ end MODAL DETAIL SCAMMER-->
+</div>
+<!-- JS -->
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/lelinh014756/fui-toast-js@master/assets/js/toast@1.0.1/fuiToast.min.js"></script>
+ <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/gh/tuanduong1907/fui-validate@main/fui-validate.js"></script>
+  <script src="./assets/js/app.js"></script>
+  <script src="./assets/js/report.js"></script>
+<!-- end JS -->
+   </body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soi Scam Admin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/base.css" />
+    <link rel="stylesheet" href="./css/admin.css" />
+    <link rel="stylesheet" href="./css/dashboard.css" />
+  </head>
+  <body>
+    <div class="container-admin">
+        <!-- SIDEBAR -->
+      <section class="sidebar">
+        <a href="./dashboard.html" class="sidebar__logo">
+          <img src="../assets/images/logo.png" alt="" />
+          Soi scam
+        </a>
+        <ul class="sidebar__list">
+          <li class="sidebar__item">
+            <a href="./dashboard.html" class="sidebar__link">
+                <span class="sidebar__link-icon">
+                <i class="fa-solid fa-users"></i>
+                 </span>
+                Danh sách scammer</a>
+          </li>
+          <li class="sidebar__item">
+            <a href="./pedding.html" class="sidebar__link active">
+                 <span class="sidebar__link-icon">
+                <i class="fa-solid fa-hourglass-half"></i>
+                </span>
+                Đợi Duyệt</a>
+          </li>
+          <li class="sidebar__item">
+            <a href="./warning.html" class="sidebar__link">
+                   <span class="sidebar__link-icon">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                     </span>
+                Nội dung cảnh báo</a>
+          </li>
+          <li class="sidebar__item">
+            <a href="#" class="sidebar__link">
+                   <span class="sidebar__link-icon">
+                <i class="fa-solid fa-globe"></i>
+                   </span>
+                Vào website</a>
+          </li>
+        </ul>
+      </section>
+              <!-- end SIDEBAR -->
+
+      <!-- DASHBOARD-->
+<section class="dashboard">
+    <!-- Header Dashboard-->
+  <header class="headerAdmin">
+    <h2 class="headerAdmin__title">Quản lý kiểm duyệt</h2>
+    <div class="headerAdmin__info">
+      <img src="../assets/images/avatar-2.png" alt="admin avatar" />
+      <span class="headerAdmin__name">Admin</span>
+      <span class="headerAdmin__icon">
+        <i class="fa-solid fa-angle-down"></i>
+      </span>
+    </div>
+  </header>
+      <!-- end Header Dashboard-->
+
+     <!-- Dashboard Content -->
+<div class="dashboard-content">
+    <!-- Dashboard Top-->
+  <div class="dashboard__top">
+    <div class="dashboard__top-heading">
+      <h2 class="dashboard__top-title">Danh sách đợi duyệt</h2>
+      <p class="dashboard__top-total">(Có 20 đơn đợi duyệt)</p>
+    </div>
+    <form class="form-search form-search__admin">
+      <input
+        type="text"
+        placeholder="Kiểm tra số tài khoản ngân hàng.."
+        class="form-search__input"
+      />
+      <button class="btn form-search__btn" type="submit">
+        <img src="../assets/images/search-icon.svg" alt="" />
+        <span>Tìm kiếm</span>
+      </button>
+    </form>
+  </div>
+<!-- end Dashboard Top -->
+
+<!-- Dashboard Table -->
+ 
+<div class="dashboard-table-wrap table-wrap">
+  <table class="dashboard-table">
+    <thead class="dashboard-table__header">
+      <tr>
+        <th>id</th>
+        <th>Chủ tài khoản</th>
+        <th>Số tài khoản</th>
+        <th>Ngân hàng</th>
+        <th>Sđt đối tượng</th>
+        <th>Người gửi đơn</th>
+        <th>Ngày gửi</th>
+        <th></th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+       <td>#1</td>
+        <td>Nguyễn Văn A</td>
+        <td>323873743794343938429843</td>
+        <td>MB Bank</td>
+        <td>0954362345</td>
+        <td>Nguyễn Văn Dương</td>
+        <td>10/07/2025</td>
+        <td class="table-action">
+            <span class="table-action__icon table-action__view">
+            <i class="fa-solid fa-eye"></i>
+            </span>
+            <span class="table-action__icon table-action__remove">
+            <i class="fa-solid fa-trash"></i>
+            </span>
+        </td>
+      </tr>
+   
+    
+    </tbody>
+  </table>
+</div>
+<!-- end Dashboard Table -->
+
+
+</div>
+</section>
+<!-- end DASHBOARD -->
+    </div>
+  </body>
+</html>

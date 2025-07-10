@@ -1,0 +1,176 @@
+
+
+
+.container-admin {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+/* SIDEBAR STYLES */
+.sidebar {
+    width: 100%;
+    max-width: 250px;
+    background-color: var(--bgColor2);
+    border-radius: 12px;
+    padding: 20px;
+    height: calc(100vh-40px);
+}
+
+.sidebar__logo {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    margin-bottom: 40px;
+    color: var(--textColor);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sidebar__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar__link {
+    color: var(--textColor);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 18px;
+    color: var(--subTextColor);
+    transition: linear .2s;
+}
+
+.sidebar__link.active {
+    color: var(--textColor);
+
+}
+.sidebar__link:hover {
+    color: var(--textColor);
+
+}
+
+.sidebar__link-icon{
+    font-size: 18px;
+    display: inline-block;
+    width: 20px;
+}
+
+
+/* end SIDEBAR STYLES */
+/* DASHBOARD HEADER STYLES */
+
+.dashboard {
+    flex: 1;
+}
+
+.headerAdmin {
+    padding: 16px;
+    border-radius: 12px;
+    background-color: var(--bgColor2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerAdmin__title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.headerAdmin__info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+/* DASHBOARD HEADER STYLES */
+
+/* DASHBOARD CONTENT STYLES */
+.dashboard-content {
+    background-color: var(--bgColor2);
+    margin-top: 20px;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.dashboard__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-search__admin {
+    max-width: 500px;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.dashboard__top-heading {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dashboard__top-total {
+    font-size: 16px;
+    color: var(--subTextColor);
+    font-weight: 600;
+}
+/* end DASHBOARD CONTENT STYLES */
+
+/* Dashboard Table Styles */
+.dashboard-table-wrap {
+    margin-top: 50px;
+}
+.dashboard-table__header {
+    background-color: var(--bgColor3);
+}
+
+.table-wrap {
+  font-size: 14px;
+}
+.dashboard-table {
+     width: 100%;
+  overflow: hidden;
+  border-radius: 4px;
+  border-spacing: 0;
+  border-radius: 16px;
+}
+
+
+table thead th {
+  text-align: left;
+}
+
+table th,
+table td {
+  padding: 16px;
+}
+table td {
+  vertical-align: middle;
+}
+
+.table-action {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.table-action__icon {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.table-action__remove {
+    color: var(--redColor);
+}
+
+/* ==================== End table common ==================== */
+/* end Dashboard Table Styles */
+
+.add-warning-btn{
+    margin-left: 20px;
+}

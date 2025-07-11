@@ -77,11 +77,19 @@ Bạn có thể mở file index.html trực tiếp bằng Live Server (cài tron
 
 <img width="1919" height="896" alt="image" src="https://github.com/user-attachments/assets/d63bb835-d507-491c-9361-9bb51b1ede62" />
 
-3. Trang gửi tố cáo
+3. Chi tiết tố cáo
+
+<img width="1163" height="887" alt="image" src="https://github.com/user-attachments/assets/bd86a908-4078-4326-a151-b08c63794fb4" />
+
+4.Xem ảnh bằng chứng
+
+<img width="1918" height="876" alt="image" src="https://github.com/user-attachments/assets/97966825-3e65-4b0f-a93e-e779ff3be756" />
+
+4. Trang gửi tố cáo
 
 <img width="1893" height="891" alt="image" src="https://github.com/user-attachments/assets/d3dd17e4-fa78-446f-b914-047499c7be2a" />
 
-4.Trang Admin Quản lý  đơn tố cáo
+5.Trang Admin Quản lý  đơn tố cáo
 
 <img width="1904" height="876" alt="image" src="https://github.com/user-attachments/assets/0fb354d0-7bec-4142-831d-e6f8e41b6588" />
 

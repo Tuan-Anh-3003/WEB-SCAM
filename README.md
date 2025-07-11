@@ -99,7 +99,7 @@ Lưu ý: ## 🔗 Tham khảo & Cảm hứng
 Dự án này được thực hiện với mục đích học tập và tham khảo, có sử dụng ý tưởng hoặc tài nguyên từ nhiều nguồn khác nhau trên internet như:
 
 - Các trang web cảnh báo lừa đảo trên mạng xã hội.
-- Một số mẫu thiết kế UI trên Dribbble, Behance.
+- Một số mẫu thiết kế UI trên Fast UI, Dribbble, Behance.
 - Các bài viết hướng dẫn về LightGallery, Fetch API, DOM.
 - Các đoạn mã tham khảo từ StackOverflow và cộng đồng GitHub.
 

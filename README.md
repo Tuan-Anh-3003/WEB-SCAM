@@ -102,6 +102,7 @@ Dự án này được thực hiện với mục đích học tập và tham kh�
 - Một số mẫu thiết kế UI trên Fast UI, Dribbble, Behance.
 - Các bài viết hướng dẫn về LightGallery, Fetch API, DOM.
 - Các đoạn mã tham khảo từ StackOverflow và cộng đồng GitHub.
+- Nguồn tham khảo: https://www.youtube.com/@DTDev 
 
 Mọi tài liệu, hình ảnh và thư viện được sử dụng đều tuân thủ mục đích học tập, phi thương mại. Xin chân thành cảm ơn những nguồn cảm hứng và tài liệu quý giá từ cộng đồng.
 
